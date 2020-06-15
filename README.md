@@ -8,9 +8,13 @@ And by running ```firebase use [project_id]``` you can toggle between different 
 
 source: https://firebase.google.com/docs/cli#add_alias
 
-Well this is supper handy to switch between different environment but also supper easy to deploy production instead of development ;), Let's set up shell prompt to display us the current env on the famous Powerlevel10k.
+Well this is supper handy to switch between different environments but also supper easy to deploy development code into production env ;), Let's set up shell prompt to display us the current env on the famous Powerlevel10k theme.
+
+Here is the link for how to install Powerlevel10k theme:
+https://gist.github.com/kevin-smets/8568070
+
 # Setup shell prompt for .p10k.zsh
-Open Iterm2 and run ```vim ~/.p10k.zsh```, hit ```I``` to edit shell.
+Open Iterm2 and run ```vim ~/.p10k.zsh```, hit ```I``` on keyboard to edit shell.
 Search for ```instant_prompt_example``` and past below code under it.
 ```
  function prompt_firebase() {
